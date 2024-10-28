@@ -1,0 +1,105 @@
+/* Colors and fonts */
+body{
+	background-color: #F1F8E8 ;
+	color: #55AD9B;
+	font-family: "Poiret One", sans-serif;
+ 	 font-weight: 400;
+ 	 font-style: bolder;}
+
+h1, h2, h3 {
+ 	  font-family: "Lexend", sans-serif;
+  		font-optical-sizing: auto;
+  		font-weight: <weight>;
+  		font-style: lighter;
+}
+
+}
+h1{
+	color: #55AD9B ;
+	 font-family: "Lexend", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: lighter;
+}
+h2 {
+	color: #55AD9B;
+	 font-family: "Gowun Dodum", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+a{
+	font-family: "Poiret One", sans-serif;
+	text-decoration: none;
+	color: #55AD9B;
+	font-weight: 400;
+	font-style: bolder;
+}
+a:hover {
+	color: black;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+}
+.card-white {
+	background: white;
+    padding: 40px;
+    margin: 20px 0px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #708871;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-style: 50px;
+	color: rgb(230,230,230); 
+}
+.list-inline i:hover {
+	font-style: 50px;
+	color: black; 
+}
+
+/*Design adjustments using id*/
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
